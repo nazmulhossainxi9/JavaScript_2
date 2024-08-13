@@ -1,0 +1,78 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:focus, .btn:active, .btn:active:focus{
+box-shadow: none;
+}
+
+ol li {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(12, 30, 78);
+}
+.btn-info, .btn-danger, .btn-success, .btn-warning, .btn-primary, input{
+    margin-left: 20px;
+}
+.text{
+    color: rgb(12, 30, 78);
+    margin: 10px 0 0 20px;
+}
+.title h1{
+    margin: 0 0 40px 0;
+    padding: 15px 0;
+    font-size: 35px;
+    font-weight: 900;
+    background-color: rgb(243, 243, 243);
+    color: rgb(225, 0, 0);
+    text-transform: uppercase;
+}
+
+#fashion{
+    margin-left: 50px;
+    height: 40vh;
+}
+
+.variable{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #000 !important;
+}
+.show{
+    display: flex;
+    margin: 0 20px 0 20px;
+}
+
+#result{
+    margin: 0 20px !important;
+}
+.cart{
+    margin: 20px 20px;
+}
+
+h2{
+    width: 350px;
+}
+
+.ecart{
+    width: 132px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black !important;
+    border-radius: 5px;
+}
+
+.element{
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart_button{
+    background-color: rgb(226, 226, 226) !important;
+}

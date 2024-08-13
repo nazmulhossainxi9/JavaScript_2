@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- basic links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+    <div class="title text-center">
+        <h1>Basics of JavaScript</h1>
+    </div>
+
+    <div class="container">
+        <ol>
+            <!-- example 1 -->
+            <li>
+                <h3 class="text">Watch My Fashion Cloths</h3>
+                <button type="button" class="btn btn-primary" onclick="formal()">Formal</button>
+                <button type="button" class="btn btn-warning" onclick="casual()">Casual</button>
+                <button type="button" class="btn btn-info" onclick="street()">Street</button>
+                <img src="images/3.jpg" id="fashion" alt="fashion">
+            </li>
+
+            <!-- example 2 -->
+            <li>
+                <button type="button" class="btn btn-danger" onclick="dateTime()">Show Date & Time</button>
+                <h3 id="date" class="text">Date & Time</h3>
+            </li>
+
+            <!-- example 3 -->
+            <li>
+                <button type="button" class="btn btn-warning" onclick="revealE()">Reveal Text</button>
+                <button type="button" class="btn btn-warning" onclick="reveal()">Myself Alen Shawpan</button>
+                <h3 id="reveal" class="text"></h3>
+            </li>
+
+            <!-- example 4 -->
+            <li>
+                <h3 class="text">Let's see the <b>VARIABLE</b> types in JS</h3><br>
+                <button type="button" class="btn btn-info" onclick="showVar()">var</button>
+                <button type="button" class="btn btn-success" onclick="showLet()">let</button>
+                <button type="button" class="btn btn-primary" onclick="showConst()">const</button>
+                <h3 id="variable" class="text variable"></h3>
+            </li>
+
+            <!-- example 5 -->
+            <li>
+                <div class="row g-3">
+                    <div class="col-lg-3">
+                      <input id="first_number" type="number" class="form-control" placeholder="First number" >
+                    </div>
+                    <div class="col-lg-3">
+                      <input id="second_number" type="number" class="form-control" placeholder="Last number" >
+                    </div>
+                    <div class="col-lg-6">
+                        <button type="button" class="btn btn-info" onclick="addition()">Addtion</button>
+                        <button type="button" class="btn btn-info" onclick="subtraction()">Subtraction</button>
+                        <button type="button" class="btn btn-info" onclick="multiblication()">Multiplication</button>
+                        <button type="button" class="btn btn-info" onclick="division()">Division</button>
+                    </div>
+                    <div class="show">
+                        <h3>Result: </h3><h3 id="result"></h3>
+                    </div>
+                </div>
+            </li>
+            <!-- example 6 -->
+            <li>
+                <div class="cart">
+                    <h2>Cart control</h2>
+                    <div class="ecart">
+                        <button id="subtraction" class="btn cart_button" onclick="sub()"><i class="fas fa-minus"></i></button>
+                        <div id="value" class="element">1</div>
+                        <button id="addition" class="btn cart_button" onclick="add()"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </li>
+
+        </ol>
+    </div>
+    
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
